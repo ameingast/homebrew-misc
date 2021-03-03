@@ -1,7 +1,7 @@
 class FfprobeStatic < Formula
-  version "4.3.1"
+  version "4.3.2"
   url "https://evermeet.cx/ffmpeg/ffprobe-#{version}.7z"
-  sha256 "d869bcd3e70d8f95c22294ed714c34a23524d29fbe80f026f4ee6d81f377614e"     
+  sha256 "e4f363c79715b9da3ed0199881fa2b626c8ce6e1c6c74df17d3fc00c0902946d"     
 
   def install 
     bin.install "./ffprobe" => "ffprobe"
