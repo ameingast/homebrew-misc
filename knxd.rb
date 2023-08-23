@@ -1,5 +1,5 @@
 class Knxd < Formula
-  version "0.14.56"
+  version "0.14.59"
   homepage "https://github.com/knxd/knxd"
   url "https://github.com/knxd/knxd.git", :tag => version
 
