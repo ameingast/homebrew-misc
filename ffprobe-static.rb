@@ -1,14 +1,14 @@
 class FfprobeStatic < Formula
-  version "6.0"
+  version "6.1"
 
   if Hardware::CPU.arm?
-    url "https://www.osxexperts.net/ffprobe6arm.zip"
-    sha256 "582842ca7e76197ae8f4299b7f5f2d257b42168f314fc37a675708b9d5f847e0"     
+    url "https://www.osxexperts.net/ffprobe61arm.zip"
+    sha256 "eb36b51fd72527d639d8e85dc0a8b6aa440e432c2ece8b0006f2f4416a958e6e"     
   end
 
   if Hardware::CPU.intel?
-    url "https://www.osxexperts.net/ffprobe6intel.zip"
-    sha256 "5ed6e3a619edd06d81c506e085aeef85e3f5b5bcc34d032b01bb1b125413cd03"     
+    url "https://www.osxexperts.net/ffprobe61intel.zip"
+    sha256 "977381d8cec9c477fef4cdbb259addc7e5506e47fa61087e620d5ed01a7c7a51"     
   end
 
   def install 
