@@ -3,12 +3,12 @@ class FfmpegStatic < Formula
 
   if Hardware::CPU.arm?
     url "https://www.osxexperts.net/ffmpeg611arm.zip"
-    sha256 "9f865039102a1139c7057d7f21ddaacd106d602fa3af1f99b70f43d520439b8c"
+    sha256 "1c69a9a4a5d0172d9aec611f19d282b38b3c3d69832621ecef87926335f62e0a"
   end
 
   if Hardware::CPU.intel?
     url "https://www.osxexperts.net/ffmpeg611intel.zip"
-    sha256 "b893e45db7253d587568909feaceab9d21c6b681e7de4500adce4409228bc78d"     
+    sha256 "9a7de6ea24052166340c50e00dd493da49315431e6bfde5ed2a600eab9f27b65"     
   end
 
   def install 

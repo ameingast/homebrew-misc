@@ -3,12 +3,12 @@ class FfprobeStatic < Formula
 
   if Hardware::CPU.arm?
     url "https://www.osxexperts.net/ffprobe611arm.zip"
-    sha256 "05a26b32c32115785d48b01601e104712bbc6c2b1d363b9cf44c42232684e25e"     
+    sha256 "8ec78ce09c0b474ae7583908c8d79d801f754d8273dca3d5a5de51f307517fc7"     
   end
 
   if Hardware::CPU.intel?
     url "https://www.osxexperts.net/ffprobe611intel.zip"
-    sha256 "975e84c3e163e6df76b3ae1d4ccf0b584ee022075bfc76d0dc31ed5f2b012731"     
+    sha256 "977381d8cec9c477fef4cdbb259addc7e5506e47fa61087e620d5ed01a7c7a51"     
   end
 
   def install 
