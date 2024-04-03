@@ -7,7 +7,7 @@ class FfmpegStatic < Formula
   end
 
   if Hardware::CPU.intel?
-    url "https://www.osxexperts.net/ffmpeg611intel.zip"
+    url "https://www.osxexperts.net/ffmpeg61intel.zip"
     sha256 "9a7de6ea24052166340c50e00dd493da49315431e6bfde5ed2a600eab9f27b65"     
   end
 

@@ -7,7 +7,7 @@ class FfprobeStatic < Formula
   end
 
   if Hardware::CPU.intel?
-    url "https://www.osxexperts.net/ffprobe611intel.zip"
+    url "https://www.osxexperts.net/ffprobe61intel.zip"
     sha256 "977381d8cec9c477fef4cdbb259addc7e5506e47fa61087e620d5ed01a7c7a51"     
   end
 
