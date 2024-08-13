@@ -3,7 +3,7 @@ class FfmpegStatic < Formula
 
   if Hardware::CPU.arm?
     url "https://www.osxexperts.net/ffmpeg7arm.zip"
-    sha256 "d2cd3145597a36ec17cb55273f1b7c2ce80def3b67e915293e649cd66281160c"
+    sha256 "563111a239fe70d2e5c84a5382204a7d0bf0a332385a92a44baff36d313e27f2"
   end
 
   if Hardware::CPU.intel?
