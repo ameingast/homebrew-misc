@@ -3,7 +3,7 @@ class FfprobeStatic < Formula
 
   if Hardware::CPU.arm?
     url "https://www.osxexperts.net/ffprobe7arm.zip"
-    sha256 "bf0cccdda082ad7ed0d04cc6767014bce86f0a83bcd4a7b85137667ed0bcee0e"     
+    sha256 "e5ae34ee2f0b3594892a695fd733646904bbc7eb40af3b359ed91538ddcb5513"     
   end
 
   if Hardware::CPU.intel?
